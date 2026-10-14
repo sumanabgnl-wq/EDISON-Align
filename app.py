@@ -637,9 +637,9 @@ it_col, non_it_col = st.columns(2)
 with it_col:
     st.subheader("💻 IT SECTOR")
     st.image(
-        str(image_folder / "it_sector.jpg"),
-        use_container_width=True
-    )
+    "it_sector.jpg",
+    use_container_width=True
+)
     if st.button(
         "View IT Job Roles",
         key="choose_it",
@@ -651,7 +651,7 @@ with it_col:
 with non_it_col:
     st.subheader("🏢 NON-IT SECTOR")
     st.image(
-        str(image_folder / "non_it_sector.jpg"),
+        "non_it_sector.jpg",
         use_container_width=True
     )
     if st.button(
